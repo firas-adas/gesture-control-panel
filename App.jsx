@@ -673,8 +673,7 @@ const GestureControlPanel = () => {
                     outline: 'none',
                     WebkitAppearance: 'none',
                     appearance: 'none',
-                    background: `linear-gradient(to right, #000000 0%, #000000 ${((majorityThreshold - 2) / 2) * 100}%, #e0e0e0 ${((majorityThreshold - 2) / 2) * 100}%, #e0e0e0 100%)`
-                  }}
+                    background: `linear-gradient(to right, #000000 0%, #000000 ${((majorityThreshold - 1) / 4) * 100}%, #e0e0e0 ${((majorityThreshold - 1) / 4) * 100}%, #e0e0e0 100%)`                  }}
                 />
                 <div style={{
                   marginTop: '8px',
