@@ -810,7 +810,7 @@ const GestureControlPanel = () => {
                     No actions logged
                   </div>
                 ) : (
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', maxHeight: '200px', overflowY: 'auto' }}>
                     {actionLog.map((entry, index) => (
                       <div
                         key={index}
