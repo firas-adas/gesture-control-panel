@@ -661,8 +661,8 @@ const GestureControlPanel = () => {
                 </div>
                 <input
                   type="range"
-                  min="2"
-                  max="4"
+                  min="1"
+                  max="5"
                   step="1"
                   value={majorityThreshold}
                   onChange={(e) => setMajorityThreshold(parseInt(e.target.value))}
