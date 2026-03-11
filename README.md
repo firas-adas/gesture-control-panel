@@ -33,11 +33,3 @@ Actions fire when a gesture changes OR after holding the same gesture for 2 seco
 - HTML5 Canvas — real-time landmark overlay rendering
 - JavaScript — custom classification and smoothing algorithms
 
-## Key Files
-
-```
-src/
-├── App.jsx          # Main gesture control component
-├── main.tsx         # Entry point
-└── styles.css       # Base styles
-```
