@@ -33,15 +33,6 @@ Actions fire when a gesture changes OR after holding the same gesture for 2 seco
 - HTML5 Canvas — real-time landmark overlay rendering
 - JavaScript — custom classification and smoothing algorithms
 
-## Running Locally
-
-```bash
-npm install
-npm run dev
-```
-
-Requires webcam access. Grant camera permissions when prompted.
-
 ## Key Files
 
 ```
